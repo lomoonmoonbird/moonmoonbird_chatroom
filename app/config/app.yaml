@@ -1,0 +1,24 @@
+
+mysql:
+  database: moonmoonbird
+  user: root
+  password: PengKim@123
+  host: 192.168.0.108
+  port: 3306
+
+mongodb:
+  host: localhost
+  port: 27017
+  database: moonmoonbird
+  max_pool_size: 20
+
+host: 0.0.0.0
+port: 52789
+
+hashid:
+  salt: 'dasdsdsjdks211kl*&*&(@!#@#!#klklqqe9113kl@#!#!#LDADKA*(!(JAIUEIQJKLJKLAJKD(E)(!*)(!@#**0928901903)@#!'
+  len: 16
+
+jwt:
+  salt: 'dSDSklkfkkfdhl43243j;(*(*@&$*(LhKJLH@#:1232jKJ@#$@!#@!@#JKLkjKLJ323;KKdjkdnsandsnjrhw12_+_+(|($@!&*(@!'
+  expire: 500
